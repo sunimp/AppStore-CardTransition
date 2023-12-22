@@ -1,9 +1,9 @@
-# AppStore-CardTransition
-AppStore Card Transition
+Example of imitating App Store card transition.
 
 ## Screen Recording
 
-https://raw.githubusercontent.com/sunimp/imgs/master/uPic/AppStore-Transition.mp4
+https://github.com/sunimp/AppStore-CardTransition/assets/16975429/24b6a8e1-7fcd-4263-8930-23b9915a8c5d
+
 
 ## Example
 
