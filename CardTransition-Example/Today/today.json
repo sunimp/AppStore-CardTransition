@@ -1,0 +1,164 @@
+{
+    "events": [
+        {
+            "id": "101",
+            "type": "COVER",
+            "state": "NORMAL",
+            "title": "主打推荐",
+            "name": "蛋仔冲冲冲！",
+            "tagline": "《蛋仔派对》品牌代言人吴磊特别活动上线，“吴大厨”外观登岛即领，揪揪通讯、环岛自行车等玩法等你体验！",
+            "cover": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/eggman_cover.png",
+            "introduce": {
+                "title": "尽情跳跃、翻滚和碰撞，这款轻松休闲的派对游戏，值得一玩。",
+                "contents": [
+                    {
+                        "type": "TEXT",
+                        "value": "你可能会好奇：蛋仔是谁？"
+                    },
+                    {
+                        "type": "TEXT",
+                        "value": "他们本质上是一个个盲盒，是潮玩国度的主人，遵循着奇特的游戏法则——通过翻滚、跳跃和碰撞，冲破重重阻碍，从 32 人的挑战赛中脱颖而出，闯入人类世界。"
+                    },
+                    {
+                        "type": "IMAGE",
+                        "value": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/eggman_content_1.png"
+                    },
+                    {
+                        "type": "TEXT",
+                        "value": "控制虚拟摇杆保持前进，点击跳跃键躲避陷阱和障碍，滚动键瞬间提速，《蛋仔派对》的操作并不复杂，任何人都可以快速上手，体验游戏的乐趣。"
+                    },
+                    {
+                        "type": "TEXT",
+                        "value": "但想轻易成为派对主角，又没有那么简单。"
+                    },
+                    {
+                        "type": "TEXT",
+                        "value": "考验速度的“彩虹跑道”、挑战反应力的“蛋仔幸运色”、依靠配合的“撞球先锋”......各种脑洞大开的关卡设计，时刻挑战你的操作。每一次碰撞，总会发生让人啼笑皆非的场面。"
+                    },
+                    {
+                        "type": "IMAGE",
+                        "value": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/eggman_content_2.png"
+                    },
+                    {
+                        "type": "TEXT",
+                        "value": "好不容易熟悉了场景，你才逐渐领悟游戏的真谛：其他蛋仔的存在才是最大变数。"
+                    },
+                    {
+                        "type": "TEXT",
+                        "value": "你们在狭小的空间相互碰撞，场面一度十分混乱。瞅准时机，用帅气的托举把领先的蛋仔扔出去，让他们前功尽弃；小心来自道具冰冻弹的“报复”，稍不留神就会被定在原地。"
+                    },
+                    {
+                        "type": "IMAGE",
+                        "value": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/eggman_content_3.png"
+                    },
+                    {
+                        "type": "TEXT",
+                        "value": "偶尔合作，时常互坑，不正是派对游戏最大乐趣吗？就算意外被坑，也要做场上最“潮”的仔。炫酷头型加浣熊书包，手拿充气锤再背一块夏日冲浪板，闪亮登场的你，一定会成为众人眼中的明（目）星（标）。"
+                    },
+                    {
+                        "type": "IMAGE",
+                        "value": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/eggman_content_4.png"
+                    },
+                    {
+                        "type": "TEXT",
+                        "value": "如果仅仅打扮自己还不够酷，不妨试试“蛋仔工坊”，亲手创造一个充满巧思的关卡，场景的布局、障碍和道具均由你决定，够潮够酷就是唯一的规则。"
+                    },
+                    {
+                        "type": "TEXT",
+                        "value": "喊上两三好友，现在进入游戏，热闹闯关派对已经开启！撞走现实的烦恼，原来如此简单。"
+                    }
+                ]
+            },
+            "items": [
+                {
+                    "id": "20000",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/eggman_appicon.png",
+                    "name": "蛋仔派对",
+                    "tagline": "国民欢乐游戏，5亿人的选择",
+                    "iap": true
+                }
+            ]
+        },
+        {
+            "id": "102",
+            "type": "LIST",
+            "state": "NORMAL",
+            "title": "专题",
+            "name": "时下畅销游戏",
+            "tagline": "",
+            "cover": "",
+            "items": [
+                {
+                    "id": "20001",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/hok_appicon.png",
+                    "name": "王者荣耀",
+                    "tagline": "S33赛季 闪耀亚洲",
+                    "iap": true
+                },
+                {
+                    "id": "20002",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/against_appicon.png",
+                    "name": "逆水寒",
+                    "tagline": "武侠开放世界，会呼吸的江湖",
+                    "iap": true
+                },
+                {
+                    "id": "20003",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/elite_appicon.png",
+                    "name": "和平精英",
+                    "tagline": "天文漫游",
+                    "iap": true
+                },
+                {
+                    "id": "20004",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/lolm_appicon.png",
+                    "name": "英雄联盟手游",
+                    "tagline": "狩猎派对 S11赛季",
+                    "iap": true
+                },
+                {
+                    "id": "20005",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/collapse_appicon.png",
+                    "name": "崩坏：星穹铁道",
+                    "tagline": "米哈游银河冒险策略游戏",
+                    "iap": true
+                },
+                {
+                    "id": "20006",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/mhxy_appicon.png",
+                    "name": "梦幻西游",
+                    "tagline": "网易出品，招牌回合制手游",
+                    "iap": true
+                },
+                {
+                    "id": "20007",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/jcczz_appicon.png",
+                    "name": "金铲铲之战",
+                    "tagline": "英雄联盟云顶之弈正版授权手游",
+                    "iap": true
+                },
+                {
+                    "id": "20008",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/sgz_appicon.png",
+                    "name": "三国志·战略版",
+                    "tagline": "光荣正版 真实水陆战争策略大作",
+                    "iap": true
+                },
+                {
+                    "id": "20009",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/xyzw_appicon.png",
+                    "name": "咸鱼之王",
+                    "tagline": "人没有梦想，跟咸鱼有什么区别",
+                    "iap": true
+                },
+                {
+                    "id": "20000",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/eggman_appicon.png",
+                    "name": "蛋仔派对",
+                    "tagline": "国民欢乐游戏，5亿人的选择",
+                    "iap": true
+                }
+            ]
+        }
+    ]
+}
