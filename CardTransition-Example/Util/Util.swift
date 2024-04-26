@@ -17,6 +17,7 @@ public enum Util {
     public static let margin: CGFloat = 16
     public static let marginLarge: CGFloat = 20
     
+    public static let screenSize: CGSize = CGSize(width: screenWidth, height: screenHeight)
     public static let screenWidth: CGFloat = UIScreen.main.bounds.width
     public static let screenHeight: CGFloat = UIScreen.main.bounds.height
     
@@ -28,8 +29,15 @@ public enum Util {
     public static var keyWindow: UIWindow? {
         UIApplication.shared.activeWindow
     }
+    
     public static var safeAreaInsets: UIEdgeInsets {
         keyWindow?.safeAreaInsets ?? .zero
+    }
+    
+    public static var topVC: UIViewController? {
+        let window = self.keyWindow ?? UIApplication.shared.windows.first(where: { $0.rootViewController != nil })
+        
+        return window?.rootViewController?.topVC
     }
     
     public static let animationDuration: TimeInterval = 0.25

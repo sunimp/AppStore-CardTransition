@@ -10,6 +10,7 @@
 		A4180D292B31236F002CDB10 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4180D282B31236F002CDB10 /* Util.swift */; };
 		A4180D2B2B317F04002CDB10 /* UIStackView+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4180D2A2B317F04002CDB10 /* UIStackView+Convenience.swift */; };
 		A4180D2D2B319E5A002CDB10 /* UIView+OuterBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4180D2C2B319E5A002CDB10 /* UIView+OuterBorder.swift */; };
+		A49F4E0D2BDB49300053D5A7 /* UIViewController+TopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F4E0C2BDB49300053D5A7 /* UIViewController+TopVC.swift */; };
 		A4BBE9132B39315F00F92873 /* TodayRollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BBE9122B39315F00F92873 /* TodayRollCell.swift */; };
 		A4BBE9162B3931EF00F92873 /* RollDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BBE9152B3931EF00F92873 /* RollDetailViewController.swift */; };
 		A4BBE9192B3933C300F92873 /* ListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BBE9182B3933C300F92873 /* ListDetailView.swift */; };
@@ -19,9 +20,6 @@
 		A4E14BCC2B2FEEE700B3E480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E14BCB2B2FEEE700B3E480 /* AppDelegate.swift */; };
 		A4E14BD52B2FEEE900B3E480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E14BD42B2FEEE900B3E480 /* Assets.xcassets */; };
 		A4E14BD82B2FEEE900B3E480 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E14BD62B2FEEE900B3E480 /* LaunchScreen.storyboard */; };
-		A4E14BE12B2FF19E00B3E480 /* LookinServer in Frameworks */ = {isa = PBXBuildFile; productRef = A4E14BE02B2FF19E00B3E480 /* LookinServer */; };
-		A4E14BE42B2FF1A800B3E480 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A4E14BE32B2FF1A800B3E480 /* SnapKit */; };
-		A4E14BE62B2FF1A800B3E480 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = A4E14BE52B2FF1A800B3E480 /* SnapKit-Dynamic */; };
 		A4E14BE92B2FF1E000B3E480 /* UIView+CardTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E14BE82B2FF1E000B3E480 /* UIView+CardTransition.swift */; };
 		A4E14BEB2B2FF20A00B3E480 /* CardTransitionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E14BEA2B2FF20A00B3E480 /* CardTransitionState.swift */; };
 		A4E14BED2B2FF27100B3E480 /* TransitionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E14BEC2B2FF27100B3E480 /* TransitionType.swift */; };
@@ -42,8 +40,6 @@
 		A4E14C102B3023F100B3E480 /* TodayCoverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E14C0F2B3023F100B3E480 /* TodayCoverCell.swift */; };
 		A4E14C122B3023F700B3E480 /* TodayListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E14C112B3023F700B3E480 /* TodayListCell.swift */; };
 		A4E14C152B30246800B3E480 /* AppRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E14C142B30246800B3E480 /* AppRowView.swift */; };
-		A4E14C182B3026FF00B3E480 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = A4E14C172B3026FF00B3E480 /* SDWebImage */; };
-		A4E14C1A2B3026FF00B3E480 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A4E14C192B3026FF00B3E480 /* SDWebImageMapKit */; };
 		A4E14C1C2B302CF500B3E480 /* UIView+StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E14C1B2B302CF500B3E480 /* UIView+StackView.swift */; };
 		A4E14C202B30333300B3E480 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E14C1F2B30333300B3E480 /* GradientView.swift */; };
 		A4E14C242B3037DE00B3E480 /* MMCQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E14C222B3037DE00B3E480 /* MMCQ.swift */; };
@@ -56,6 +52,9 @@
 		A4E14C332B30573900B3E480 /* ListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E14C322B30573900B3E480 /* ListDetailViewController.swift */; };
 		A4E9C0C82B33D41800EAF27F /* Occupiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E9C0C72B33D41800EAF27F /* Occupiable.swift */; };
 		A4E9C0CA2B33E2E200EAF27F /* Bool+Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E9C0C92B33E2E200EAF27F /* Bool+Toggle.swift */; };
+		A4EA6B332BDB5361000E091C /* LookinServer in Frameworks */ = {isa = PBXBuildFile; productRef = A4EA6B322BDB5361000E091C /* LookinServer */; };
+		A4EA6B362BDB536F000E091C /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = A4EA6B352BDB536F000E091C /* SDWebImage */; };
+		A4EA6B392BDB5378000E091C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A4EA6B382BDB5378000E091C /* SnapKit */; };
 		A4EEBD0A2B32846700B01DA0 /* TodayCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EEBD092B32846700B01DA0 /* TodayCoverView.swift */; };
 		A4EEBD152B3287FB00B01DA0 /* CoverDetailIntroduceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EEBD142B3287FB00B01DA0 /* CoverDetailIntroduceView.swift */; };
 		A4EEBD172B328F9E00B01DA0 /* String+AttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EEBD162B328F9E00B01DA0 /* String+AttributedText.swift */; };
@@ -74,6 +73,7 @@
 		A4180D282B31236F002CDB10 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		A4180D2A2B317F04002CDB10 /* UIStackView+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Convenience.swift"; sourceTree = "<group>"; };
 		A4180D2C2B319E5A002CDB10 /* UIView+OuterBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+OuterBorder.swift"; sourceTree = "<group>"; };
+		A49F4E0C2BDB49300053D5A7 /* UIViewController+TopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+TopVC.swift"; sourceTree = "<group>"; };
 		A4BBE9122B39315F00F92873 /* TodayRollCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayRollCell.swift; sourceTree = "<group>"; };
 		A4BBE9152B3931EF00F92873 /* RollDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollDetailViewController.swift; sourceTree = "<group>"; };
 		A4BBE9182B3933C300F92873 /* ListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailView.swift; sourceTree = "<group>"; };
@@ -136,11 +136,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4E14BE12B2FF19E00B3E480 /* LookinServer in Frameworks */,
-				A4E14C1A2B3026FF00B3E480 /* SDWebImageMapKit in Frameworks */,
-				A4E14BE42B2FF1A800B3E480 /* SnapKit in Frameworks */,
-				A4E14C182B3026FF00B3E480 /* SDWebImage in Frameworks */,
-				A4E14BE62B2FF1A800B3E480 /* SnapKit-Dynamic in Frameworks */,
+				A4EA6B392BDB5378000E091C /* SnapKit in Frameworks */,
+				A4EA6B362BDB536F000E091C /* SDWebImage in Frameworks */,
+				A4EA6B332BDB5361000E091C /* LookinServer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,6 +154,7 @@
 				A4E14C282B30422800B3E480 /* UIView+Animation.swift */,
 				A4180D2C2B319E5A002CDB10 /* UIView+OuterBorder.swift */,
 				A4EEBD2B2B32C37800B01DA0 /* UIView+Responder.swift */,
+				A49F4E0C2BDB49300053D5A7 /* UIViewController+TopVC.swift */,
 				A4180D2A2B317F04002CDB10 /* UIStackView+Convenience.swift */,
 				A4EEBD162B328F9E00B01DA0 /* String+AttributedText.swift */,
 				A4EEBD1A2B329BE400B01DA0 /* UIImage+Resize.swift */,
@@ -404,11 +403,9 @@
 			);
 			name = "CardTransition-Example";
 			packageProductDependencies = (
-				A4E14BE02B2FF19E00B3E480 /* LookinServer */,
-				A4E14BE32B2FF1A800B3E480 /* SnapKit */,
-				A4E14BE52B2FF1A800B3E480 /* SnapKit-Dynamic */,
-				A4E14C172B3026FF00B3E480 /* SDWebImage */,
-				A4E14C192B3026FF00B3E480 /* SDWebImageMapKit */,
+				A4EA6B322BDB5361000E091C /* LookinServer */,
+				A4EA6B352BDB536F000E091C /* SDWebImage */,
+				A4EA6B382BDB5378000E091C /* SnapKit */,
 			);
 			productName = "CardTransition-Example";
 			productReference = A4E14BC82B2FEEE700B3E480 /* CardTransition-Example.app */;
@@ -439,9 +436,9 @@
 			);
 			mainGroup = A4E14BBF2B2FEEE700B3E480;
 			packageReferences = (
-				A4E14BDF2B2FF19E00B3E480 /* XCRemoteSwiftPackageReference "LookinServer" */,
-				A4E14BE22B2FF1A800B3E480 /* XCRemoteSwiftPackageReference "SnapKit" */,
-				A4E14C162B3026FF00B3E480 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				A4EA6B312BDB5361000E091C /* XCRemoteSwiftPackageReference "LookinServer" */,
+				A4EA6B342BDB536F000E091C /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				A4EA6B372BDB5378000E091C /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = A4E14BC92B2FEEE700B3E480 /* Products */;
 			projectDirPath = "";
@@ -473,6 +470,7 @@
 				A4BBE9132B39315F00F92873 /* TodayRollCell.swift in Sources */,
 				A4EEBD152B3287FB00B01DA0 /* CoverDetailIntroduceView.swift in Sources */,
 				A4E14C332B30573900B3E480 /* ListDetailViewController.swift in Sources */,
+				A49F4E0D2BDB49300053D5A7 /* UIViewController+TopVC.swift in Sources */,
 				A4E9C0C82B33D41800EAF27F /* Occupiable.swift in Sources */,
 				A4E14C2D2B30498300B3E480 /* UIApplication+Window.swift in Sources */,
 				A4E14C0E2B30206F00B3E480 /* Today.swift in Sources */,
@@ -670,8 +668,7 @@
 				INFOPLIST_FILE = "CardTransition-Example/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -696,8 +693,7 @@
 				INFOPLIST_FILE = "CardTransition-Example/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -735,57 +731,47 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		A4E14BDF2B2FF19E00B3E480 /* XCRemoteSwiftPackageReference "LookinServer" */ = {
+		A4EA6B312BDB5361000E091C /* XCRemoteSwiftPackageReference "LookinServer" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/QMUI/LookinServer.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.2.5;
+				minimumVersion = 1.2.8;
 			};
 		};
-		A4E14BE22B2FF1A800B3E480 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.6.0;
-			};
-		};
-		A4E14C162B3026FF00B3E480 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+		A4EA6B342BDB536F000E091C /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 5.18.7;
+				minimumVersion = 5.19.1;
+			};
+		};
+		A4EA6B372BDB5378000E091C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		A4E14BE02B2FF19E00B3E480 /* LookinServer */ = {
+		A4EA6B322BDB5361000E091C /* LookinServer */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = A4E14BDF2B2FF19E00B3E480 /* XCRemoteSwiftPackageReference "LookinServer" */;
+			package = A4EA6B312BDB5361000E091C /* XCRemoteSwiftPackageReference "LookinServer" */;
 			productName = LookinServer;
 		};
-		A4E14BE32B2FF1A800B3E480 /* SnapKit */ = {
+		A4EA6B352BDB536F000E091C /* SDWebImage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = A4E14BE22B2FF1A800B3E480 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-		A4E14BE52B2FF1A800B3E480 /* SnapKit-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A4E14BE22B2FF1A800B3E480 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = "SnapKit-Dynamic";
-		};
-		A4E14C172B3026FF00B3E480 /* SDWebImage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A4E14C162B3026FF00B3E480 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			package = A4EA6B342BDB536F000E091C /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImage;
 		};
-		A4E14C192B3026FF00B3E480 /* SDWebImageMapKit */ = {
+		A4EA6B382BDB5378000E091C /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = A4E14C162B3026FF00B3E480 /* XCRemoteSwiftPackageReference "SDWebImage" */;
-			productName = SDWebImageMapKit;
+			package = A4EA6B372BDB5378000E091C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
