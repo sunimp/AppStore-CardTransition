@@ -58,6 +58,7 @@ final class TodayViewController: ViewController,
         collectionView.delegate = self
         collectionView.register(TodayCoverCell.self, forCellWithReuseIdentifier: "cover")
         collectionView.register(TodayListCell.self, forCellWithReuseIdentifier: "list")
+        collectionView.register(TodayRollCell.self, forCellWithReuseIdentifier: "roll")
         collectionView.register(TodaySupplyView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "supply")
         collectionView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
@@ -84,14 +85,16 @@ extension TodayViewController {
     // MARK: - UICollectionViewDataSource, UICollectionViewDelegateFlowLayout
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return today.events.count
+        return today?.events.count ?? 0
     }
     
     func collectionView(
         _ collectionView: UICollectionView,
         cellForItemAt indexPath: IndexPath
     ) -> UICollectionViewCell {
-        let event = today.events[indexPath.item]
+        guard let event = today?.events[indexPath.item] else {
+            return .init()
+        }
         switch event.type {
         case .cover:
             guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cover", for: indexPath) as? TodayCoverCell else {
@@ -114,6 +117,17 @@ extension TodayViewController {
                 guard let self else { return }
                 
                 self.handleListDetailAction(cell, event: event)
+            }
+            return cell
+        case .roll:
+            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "roll", for: indexPath) as? TodayRollCell else {
+                return .init()
+            }
+            cell.configure(event)
+            cell.didTapAction = { [weak self] in
+                guard let self else { return }
+                
+                self.handleRollDetailAction(cell, event: event)
             }
             return cell
         }
@@ -165,5 +179,9 @@ extension TodayViewController {
     private func handleListDetailAction(_ cell: TodayListCell, event: Event) {
         let vc = ListDetailViewController()
         self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    private func handleRollDetailAction(_ cell: TodayRollCell, event: Event) {
+        
     }
 }

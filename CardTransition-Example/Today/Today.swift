@@ -16,6 +16,7 @@ struct Event: Codable, Hashable {
     enum `Type`: String, Codable {
         case cover = "COVER"
         case list = "LIST"
+        case roll = "ROLL"
     }
     
     enum State: String, Codable {
@@ -38,6 +39,7 @@ struct Event: Codable, Hashable {
     let id: String
     let type: `Type`
     let state: State
+    let promotional: String
     let title: String
     let name: String
     let tagline: String
@@ -68,25 +70,35 @@ struct App: Codable, Hashable {
     let name: String
     let tagline: String
     let iap: Bool
+    let price: String?
+    let currency: String?
 }
 
 extension Bundle {
     
-    func decode<T: Decodable>(_ type: T.Type, from file: String) -> T {
+    func decode<T: Decodable>(_ type: T.Type, from file: String) -> T? {
         guard let url = self.url(forResource: file, withExtension: nil) else {
-            fatalError("Failed to locate \(file) in bundle.")
+            return nil
         }
-        
-        guard let data = try? Data(contentsOf: url) else {
-            fatalError("Failed to load \(file) from bundle.")
+        var loaded: T?
+        do {
+            let data = try Data(contentsOf: url)
+            let decoder = JSONDecoder()
+            loaded = try decoder.decode(T.self, from: data)
+            
+        } catch {
+            print(error)
         }
-        
-        let decoder = JSONDecoder()
-        
-        guard let loaded = try? decoder.decode(T.self, from: data) else {
-            fatalError("Failed to decode \(file) from bundle.")
-        }
-        
         return loaded
+    }
+}
+
+extension String {
+    // USD -> $, CNY -> ￥
+    var currencySymbol: String {
+        switch self {
+        case "CNY": return "¥"
+        default: return "$"
+        }
     }
 }

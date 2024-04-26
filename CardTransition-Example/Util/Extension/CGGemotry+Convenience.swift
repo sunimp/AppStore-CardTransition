@@ -37,6 +37,32 @@ extension CGFloat {
 extension CGRect {
     // MARK: - CGRect
     
+    public func resizeBy(dx: CGFloat, dy: CGFloat) -> CGRect {
+        
+        var rect = self
+        rect.size.width = max(0, rect.size.width + dx)
+        rect.size.height = max(0, rect.size.height + dy)
+        
+        return rect
+    }
+    
+    public static func size(width: CGFloat = 0.0,
+                            height: CGFloat = 0.0) -> CGRect {
+        return only(width: width, height: height)
+    }
+    
+    public static func only(origin: CGPoint = .zero,
+                            size: CGSize = .zero) -> CGRect {
+        return CGRect(origin: origin, size: size)
+    }
+    
+    public static func only(x: CGFloat = 0.0,
+                            y: CGFloat = 0.0,
+                            width: CGFloat = 0.0,
+                            height: CGFloat = 0.0) -> CGRect {
+        return CGRect(x: x, y: y, width: width, height: height)
+    }
+    
     public func dividedIntegral(
         fraction: CGFloat,
         from fromEdge: CGRectEdge
@@ -112,6 +138,71 @@ extension CGRect {
         var rect = self
         rect.size.height = height.flat
         return rect
+    }
+    
+    /// 直接获取、设置中心点
+    public var center: CGPoint {
+        get { return CGPoint(x: centerX, y: centerY) }
+        set { centerX = newValue.x; centerY = newValue.y }
+    }
+    
+    /// 直接获取、设置中心X点
+    public var centerX: CGFloat {
+        get { return midX }
+        set { origin.x = newValue - width * 0.5 }
+    }
+    
+    /// 直接获取、设置中心Y点
+    public var centerY: CGFloat {
+        get { return midY }
+        set { origin.y = newValue - height * 0.5 }
+    }
+    
+    /// 通过中心点和Size直接生成Rect
+    public init(
+        center: CGPoint,
+        size: CGSize
+    ) {
+        self.init(x: center.x - size.width / 2,
+                  y: center.y - size.height / 2,
+                  width: size.width,
+                  height: size.height)
+    }
+    
+    /// 便捷构造方法
+    public static func only(width: CGFloat = .zero, height: CGFloat = .zero) -> CGRect {
+        return CGRect(x: .zero, y: .zero, width: width, height: height)
+    }
+    
+    // swiftlint:disable identifier_name
+    /// 便捷构造方法
+    public static func only(x: CGFloat = .zero, y: CGFloat = .zero, size: CGSize = .zero) -> CGRect {
+        return only(x: x, y: y, width: size.width, height: size.height)
+    }
+    
+    // MARK: - "with" 便捷方法
+    
+    /// 更改Center
+    public func with(center: CGPoint?) -> CGRect {
+        return CGRect(center: center ?? self.center, size: size)
+    }
+    
+    /// 更改CenterX
+    public func with(centerX: CGFloat?) -> CGRect {
+        
+        return CGRect(center: CGPoint(x: centerX ?? self.centerX, y: centerY), size: size)
+    }
+    
+    /// 更改CenterY
+    public func with(centerY: CGFloat?) -> CGRect {
+        
+        return CGRect(center: CGPoint(x: centerX, y: centerY ?? self.centerY), size: size)
+    }
+    
+    /// 更改CenterX，或者CenterY
+    public func with(centerX: CGFloat?, centerY: CGFloat?) -> CGRect {
+        
+        return CGRect(center: CGPoint(x: centerX ?? self.centerX, y: centerY ?? self.centerY), size: size)
     }
 }
 

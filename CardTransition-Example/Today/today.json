@@ -4,6 +4,7 @@
             "id": "101",
             "type": "COVER",
             "state": "NORMAL",
+            "promotional": "发现精彩游戏",
             "title": "主打推荐",
             "name": "蛋仔冲冲冲！",
             "tagline": "《蛋仔派对》品牌代言人吴磊特别活动上线，“吴大厨”外观登岛即领，揪揪通讯、环岛自行车等玩法等你体验！",
@@ -71,7 +72,7 @@
             },
             "items": [
                 {
-                    "id": "20000",
+                    "id": "20005",
                     "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/eggman_appicon.png",
                     "name": "蛋仔派对",
                     "tagline": "国民欢乐游戏，5亿人的选择",
@@ -83,44 +84,52 @@
             "id": "102",
             "type": "LIST",
             "state": "NORMAL",
+            "promotional": "不知道玩什么?试试这些",
             "title": "专题",
             "name": "时下畅销游戏",
             "tagline": "",
             "cover": "",
             "items": [
                 {
-                    "id": "20001",
+                    "id": "20000",
                     "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/hok_appicon.png",
                     "name": "王者荣耀",
                     "tagline": "S33赛季 闪耀亚洲",
                     "iap": true
                 },
                 {
-                    "id": "20002",
+                    "id": "20001",
                     "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/against_appicon.png",
                     "name": "逆水寒",
                     "tagline": "武侠开放世界，会呼吸的江湖",
                     "iap": true
                 },
                 {
-                    "id": "20003",
+                    "id": "20002",
                     "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/elite_appicon.png",
                     "name": "和平精英",
                     "tagline": "天文漫游",
                     "iap": true
                 },
                 {
-                    "id": "20004",
+                    "id": "20003",
                     "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/lolm_appicon.png",
                     "name": "英雄联盟手游",
                     "tagline": "狩猎派对 S11赛季",
                     "iap": true
                 },
                 {
-                    "id": "20005",
+                    "id": "20004",
                     "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/collapse_appicon.png",
                     "name": "崩坏：星穹铁道",
                     "tagline": "米哈游银河冒险策略游戏",
+                    "iap": true
+                },
+                {
+                    "id": "20005",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/eggman_appicon.png",
+                    "name": "蛋仔派对",
+                    "tagline": "国民欢乐游戏，5亿人的选择",
                     "iap": true
                 },
                 {
@@ -152,10 +161,199 @@
                     "iap": true
                 },
                 {
-                    "id": "20000",
-                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/eggman_appicon.png",
-                    "name": "蛋仔派对",
-                    "tagline": "国民欢乐游戏，5亿人的选择",
+                    "id": "20010",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/sgs_appicon.png",
+                    "name": "三国杀",
+                    "tagline": "官方正版，国风策略卡牌手游",
+                    "iap": true
+                },
+                {
+                    "id": "20011",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/kxxxl_appicon.png",
+                    "name": "开心消消乐®",
+                    "tagline": "长盛不衰，8亿人都在玩",
+                    "iap": true
+                },
+                {
+                    "id": "20012",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/guangyu_appicon.png",
+                    "name": "光·遇",
+                    "tagline": "光遇，光是遇见就很美好",
+                    "iap": true
+                },
+                {
+                    "id": "20013",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/stzb_appicon.png",
+                    "name": "率土之滨",
+                    "tagline": "千万玩家的三国个人史",
+                    "iap": true
+                },
+                {
+                    "id": "20014",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/yuanshen_appicon.png",
+                    "name": "原神",
+                    "tagline": "米哈游开放世界冒险RPG",
+                    "iap": true
+                },
+                {
+                    "id": "20015",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/jinghe_appicon.png",
+                    "name": "晶核",
+                    "tagline": "魔导朋克动作RPG手游",
+                    "iap": true
+                },
+                {
+                    "id": "20016",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/xqcq_appicon.png",
+                    "name": "星球：重启",
+                    "tagline": "外形降临 活着就行",
+                    "iap": true
+                },
+                {
+                    "id": "20017",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/kdqb_appicon.png",
+                    "name": "口袋奇兵",
+                    "tagline": "超休闲SLG，一起开启世界争霸",
+                    "iap": true
+                },
+                {
+                    "id": "20018",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/mhhy_appicon.png",
+                    "name": "梦幻花园 - Gardenscapes",
+                    "tagline": "配对益智花园游戏",
+                    "iap": true
+                },
+                {
+                    "id": "20019",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/ganglan_appicon.png",
+                    "name": "钢岚",
+                    "tagline": "《梦幻模拟战》、《天地劫》创作团队全新战棋旗舰",
+                    "iap": true
+                }
+            ]
+        },
+        {
+            "id": "103",
+            "type": "ROLL",
+            "state": "NORMAL",
+            "promotional": "发挥冒险精神",
+            "title": "时下热门",
+            "name": "开放世界的大冒险",
+            "tagline": "开放世界类游戏往往不会给玩家太多的限制，你可以随意探索巨大的地图，完成各种任务，寻找神秘宝藏，甚至挑战不可能战胜的怪物。在这里，每当你向未知区域踏出一步，都有可能发现惊喜，或陷入危险的境遇。",
+            "cover": "",
+            "items": [
+                {
+                    "id": "20014",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/yuanshen_appicon.png",
+                    "name": "原神",
+                    "tagline": "米哈游开放世界冒险RPG",
+                    "iap": true
+                },
+                {
+                    "id": "20020",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/wdsj_appicon.png",
+                    "name": "我的世界",
+                    "tagline": "世界在你手中",
+                    "iap": true
+                },
+                {
+                    "id": "20021",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/tianyu_appicon.png",
+                    "name": "天谕",
+                    "tagline": "狐妖小红娘联动",
+                    "iap": true
+                },
+                {
+                    "id": "20022",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/czymf_appicon.png",
+                    "name": "创造与魔法-伍六七联动",
+                    "tagline": "老友回归，伍六七二次联动",
+                    "iap": true
+                },
+                {
+                    "id": "20023",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/huanta_appicon.png",
+                    "name": "《幻塔》-2周年",
+                    "tagline": "狩猎派对 S11赛季",
+                    "iap": true
+                },
+                {
+                    "id": "20024",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/tlry_appicon.png",
+                    "name": "泰拉瑞亚",
+                    "tagline": "久违的冒险全新回归",
+                    "iap": false
+                },
+                {
+                    "id": "20025",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/sjjq_appicon.png",
+                    "name": "神角技巧",
+                    "tagline": "大世界爽快破坏探险手游",
+                    "iap": true
+                },
+                {
+                    "id": "20026",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/yln_appicon.png",
+                    "name": "伊洛纳",
+                    "tagline": "像素世界，时空交错！伊洛纳 X 开罗游戏，联动来袭！",
+                    "iap": true
+                },
+                {
+                    "id": "20027",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/mrzh_appicon.png",
+                    "name": "明日之后",
+                    "tagline": "匪徒大世界幸存者求生手游",
+                    "iap": true
+                },
+                {
+                    "id": "20028",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/wdxk_appicon.png",
+                    "name": "我的侠客",
+                    "tagline": "复古武侠策略RPG手游",
+                    "iap": true
+                },
+                {
+                    "id": "20029",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/tymyd_appicon.png",
+                    "name": "天涯明月刀",
+                    "tagline": "双形态新门派现世，一键飞升",
+                    "iap": true
+                },
+                {
+                    "id": "20030",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/xyzjh_appicon.png",
+                    "name": "下一站江湖！",
+                    "tagline": "单机开放世界3D武侠",
+                    "iap": true,
+                    "price": "38",
+                    "currency": "CNY"
+                },
+                {
+                    "id": "20031",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/wxsh_appicon.png",
+                    "name": "妄想山海",
+                    "tagline": "山海经无缝开放宇宙手游",
+                    "iap": true
+                },
+                {
+                    "id": "20032",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/ymjh_appicon.png",
+                    "name": "一梦江湖-原楚留香现已全面升级",
+                    "tagline": "高自由度武侠开放世界",
+                    "iap": true
+                },
+                {
+                    "id": "20033",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/csmqs_appicon.png",
+                    "name": "传送门骑士",
+                    "tagline": "高清沙盒冒险手游 “德鲁伊、毛族和遗物守护”新版本上线",
+                    "iap": true
+                },
+                {
+                    "id": "20034",
+                    "icon": "https://raw.githubusercontent.com/sunimp/imgs/master/uPic/wdqy_appicon.png",
+                    "name": "我的起源",
+                    "tagline": "重建崩坏世界的沙盒进化手游",
                     "iap": true
                 }
             ]
